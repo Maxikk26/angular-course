@@ -12,6 +12,8 @@ import { PagesComponent } from './pages.component';
 // Temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromersasComponent } from './promersas/promersas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations:[
@@ -20,7 +22,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
       ProgressComponent,
       Graficas1Component,
       IncrementadorComponent,
-      AccountSettingsComponent
+      AccountSettingsComponent,
+      PromersasComponent,
+      RxjsComponent
   ],
   exports:[
       PagesComponent,
